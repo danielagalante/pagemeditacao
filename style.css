@@ -11,6 +11,11 @@
 body {
     font-size: 100%;
     background: #fdfbbb;
+    background-image: url('assest/imgfundo.png');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    
 }
 
 .cabecalho {
@@ -32,7 +37,7 @@ body {
 
 .cabecalho-menu-item {
     font-family: "Poppins", system-ui;
-    color: #99cc00;
+    color: #FCCD2A;
     font-weight: 400;
     font-size: 15px;
 }
@@ -59,7 +64,7 @@ body {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 44px;
-    color: #A52A2A;
+    color: #FF9100;
 }
 
 .conteudo-principal-escrito-subtitulo {
@@ -104,7 +109,7 @@ body {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #A52A2A;
+    color: #FF9100;
     margin-bottom: 16px;
 }
 
@@ -132,7 +137,7 @@ body {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 15px;
-    color: #A52A2A;
+    color: #FF9100;
     padding-top: 20px;
 }
 
